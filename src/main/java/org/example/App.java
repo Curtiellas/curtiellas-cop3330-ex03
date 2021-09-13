@@ -13,10 +13,10 @@ public class App
     {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("What is the quote? ");
+        System.out.print("What is the quote? ");
         String quote = sc.nextLine();
 
-        System.out.println("Who said it? ");
+        System.out.print("Who said it? ");
         String author = sc.nextLine();
 
         //print all the values in one output
